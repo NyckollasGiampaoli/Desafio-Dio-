@@ -1,6 +1,6 @@
 package Desafio;
 
-public interface conta {
+public interface econta {
 
 	static int Agencia_padrao = 1;
 	static int Sequencial = 1;
