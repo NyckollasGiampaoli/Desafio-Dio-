@@ -4,7 +4,7 @@ import java.util.List;
 
 public abstract class Banco {
 	private String nome;
-	private List<Iconta> contas;
+	private List<econta> contas;
 
 	public String getNome() {
 		return nome;
@@ -14,11 +14,11 @@ public abstract class Banco {
 		this.nome = nome;
 	}
 
-	public List<Iconta> getContas() {
+	public List<econta> getContas() {
 		return contas;
 	}
 
-	public void setContas(List<Iconta> contas) {
+	public void setContas(List<econta> contas) {
 		this.contas = contas;
 	}	 
 }
